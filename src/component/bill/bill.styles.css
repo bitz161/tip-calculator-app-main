@@ -1,0 +1,47 @@
+@media only screen and (max-width: 375px) {
+}
+
+.bill-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5em;
+  margin: 1em 0;
+  width: 100%;
+  align-items: center;
+}
+
+.bill-container label {
+  margin: 5px;
+  width: 90%;
+}
+
+.textField {
+  text-align: right;
+}
+
+.bill-input {
+  display: flex;
+  flex-direction: row;
+  background: hsl(189, 41%, 97%);
+  justify-content: center;
+  width: 90%;
+  padding: 0.2em 0.3em;
+  padding-right: 0.5em;
+  border-radius: 5px;
+  font-size: 1.4em;
+}
+
+.bill-input input {
+  border: none;
+  text-align: right;
+  width: 100%;
+  background: hsl(189, 41%, 97%);
+  outline: none;
+  font-size: 24px;
+}
+
+.bill-input div {
+  width: 10%;
+  text-align: center;
+  font-size: 24px;
+}

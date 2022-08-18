@@ -1,0 +1,55 @@
+.total-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  width: 50%;
+  border-radius: 10px;
+  font-size: 15px;
+  height: 20em;
+  margin: 2em;
+  background: hsl(183, 100%, 15%);
+  color: white;
+  padding-top: 1em;
+}
+
+.tipPerPerson-container,
+.totalPerPerson-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 2em;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.btnReset {
+  width: 80%;
+  height: 2.5em;
+  font-size: 24px;
+  text-align: center;
+  margin: auto auto;
+  padding: 0 0;
+  color: hsl(183, 100%, 15%);
+  background: hsl(172, 67%, 45%);
+  border-radius: 8px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-size: 16px;
+}
+
+.totalPrice {
+  color: hsl(172, 67%, 45%);
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  .total-container {
+    width: 90%;
+    margin: 2em 0;
+    height: 15em;
+  }
+}
+
+.perPerson {
+  color: hsl(184, 14%, 56%);
+}

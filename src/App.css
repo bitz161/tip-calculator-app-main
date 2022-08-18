@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 15px;
+  align-items: center;
+  width: 40em;
+}
+
+@media only screen and (max-width: 375px) {
+  .h1-container {
+    margin: 1.5em 0;
+  }
+  .container {
+    flex-direction: column;
+    width: 15.5em;
+  }
+  .info-container {
+    margin: 0em;
+    padding: 0;
+  }
+}
+
+h1 {
+  font-size: 0.8em;
+  letter-spacing: 8px;
+  color: hsl(186, 14%, 43%);
+}
+
+.h1-container {
+  margin: 3em 0;
+}
+
+.info-container {
+  margin: 1em;
+}

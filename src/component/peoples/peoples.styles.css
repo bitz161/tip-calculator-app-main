@@ -1,0 +1,32 @@
+.people-container {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people-container label,
+.people-input {
+  margin: 0 1em;
+  width: 90%;
+}
+
+.people-input {
+  display: flex;
+  padding: 0.3em 0;
+  background: hsl(189, 41%, 97%);
+}
+
+.people-input input {
+  width: 90%;
+  text-align: right;
+  font-size: 24px;
+  padding-right: 0.4em;
+  outline: none;
+  border: none;
+  background: hsl(189, 41%, 97%);
+}
+
+.people-container label {
+  font-size: 0.7em;
+}
